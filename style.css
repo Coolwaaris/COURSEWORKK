@@ -78,3 +78,54 @@ section{
    text-align: center;
 }
 
+.btn{
+   background-color: var(--green);
+}
+
+.delete-btn{
+   background-color: var(--red);
+}
+
+.option-btn{
+   background-color: var(--orange);
+}
+
+.btn:hover,
+.delete-btn:hover,
+.option-btn:hover{
+   background-color: var(--black);
+}
+
+.flex-btn{
+   display: flex;
+   flex-wrap: wrap;
+   gap:1rem;
+}
+
+.flex-btn > *{
+   flex:1;
+}
+
+.title{
+   text-align: center;
+   margin-bottom: 2rem;
+   text-transform: uppercase;
+   color:var(--black);
+   font-size: 3.5rem;
+}
+
+.message{
+   position: sticky;
+   top:0;
+   max-width: 1200px;
+   margin:0 auto;
+   background-color: var(--light-bg);
+   padding:2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap:1.5rem;
+   z-index: 10000;
+}
+
+
