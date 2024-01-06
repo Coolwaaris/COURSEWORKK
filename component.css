@@ -289,3 +289,21 @@ section{
    display: none;
    animation: fadeIn .2s linear;
 }
+
+.header .flex .profile.active{
+   display: inline-block;
+}
+
+.header .flex .profile img{
+   height: 15rem;
+   width: 15rem;
+   margin-bottom: 1rem;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.header .flex .profile p{
+   padding:.5rem 0;
+   font-size: 2rem;
+   color:var(--light-color);
+}
