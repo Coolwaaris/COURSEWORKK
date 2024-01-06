@@ -263,3 +263,29 @@ section{
    color:var(--light-color);
 }
 
+.header .flex .icons a:hover span,
+.header .flex .icons a:hover i{
+   color:var(--green);
+}
+
+.header .flex .icons a span{
+   font-size: 2rem;
+}
+
+#menu-btn{
+   display: none;
+}
+
+.header .flex .profile{
+   position: absolute;
+   top:120%; right:2rem;
+   box-shadow: var(--box-shadow);
+   border:var(--border);
+   border-radius: .5rem;
+   padding:2rem;
+   text-align: center;
+   background-color: var(--white);
+   width: 33rem;
+   display: none;
+   animation: fadeIn .2s linear;
+}
