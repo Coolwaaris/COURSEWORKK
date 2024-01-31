@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
 :root{
-   --green:#27ae60;
+   --red:#27ae60;
    --orange:#f39c12;
    --red:#e74c3c;
    --black:#333;
@@ -22,7 +22,7 @@
 }
 
 *::selection{
-   background-color: var(--green);
+   background-color: var(--red);
    color:var(--white);
 }
 
@@ -36,7 +36,7 @@
 }
 
 *::-webkit-scrollbar-thumb{
-   background-color: var(--green);
+   background-color: var(--red);
 }
 
 body{
@@ -79,7 +79,7 @@ section{
 }
 
 .btn{
-   background-color: var(--green);
+   background-color: var(--red);
 }
 
 .delete-btn{
@@ -203,7 +203,7 @@ section{
 }
 
 .form-container form p a{
-   color:var(--green);
+   color:var(--red);
 }
 
 .form-container form p a:hover{
@@ -234,7 +234,7 @@ section{
 }
 
 .header .flex .logo span{
-   color:var(--green);
+   color:var(--red);
 }
 
 .header .flex .navbar a{
@@ -245,7 +245,7 @@ section{
 
 .header .flex .navbar a:hover{
    text-decoration: underline;
-   color:var(--green);
+   color:var(--red);
 }
 
 .header .flex .icons > *{
@@ -256,7 +256,7 @@ section{
 }
 
 .header .flex .icons > *:hover{
-   color:var(--green);
+   color:var(--red);
 }
 .header .flex .icons a span,
 .header .flex .icons a i{
@@ -265,7 +265,7 @@ section{
 
 .header .flex .icons a:hover span,
 .header .flex .icons a:hover i{
-   color:var(--green);
+   color:var(--red);
 }
 
 .header .flex .icons a span{
